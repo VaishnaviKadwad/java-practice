@@ -18,8 +18,8 @@ public class transposeMatrix{
         }
         System.out.println("The transpose is : ");
         //To print transpose
-        for(int j=0; j<m ;j++) {
-            for(int i=0; i<n; i++) {
+        for(int i=0; i<m ;i++) {
+            for(int j=0; j<n; j++) {
                 System.out.print(matrix[i][j]+" ");
             }
             System.out.println();
